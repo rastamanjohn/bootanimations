@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+##### What are boot animations?
+The **boot animation** is what you see when you boot a phone. It's generally a boring **SAMSUNG** or **LG** logo, but with **root access** (or at least unlocked bootloader/custom recovery,) you can change it.
 
-You can use the [editor on GitHub](https://github.com/rastamanjohn/bootanimations/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+##### The way it works:
+The boot animation is stored in a zip named `bootanimation.zip` in `/system/media`. All that needs to be done is replace it, and there are a few ways to do so:
+- **manually** replace the files with a root explorer
+- replace the files with an [**app**](https://play.google.com/store/apps/details?id=com.jrummy.apps.boot.animations)
+- flash a **magisk** module
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The app way is reccomended, as it's the most painless way.
+The zip files in the [**channel**](https://t.me/bootanmtsgallery) are just the bootanimation.zip, so either you can use the app, or you can do it manually. If so you need to rename the file approprietaly, if you use the app it will do it for you. 
 
-### Markdown
+These zip files **are not** flashable with magisk/recovery.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Another thing the app will do is stretch the boot animation to your resolution (unless disabled this 'feature' in its settings), this can be good or bad, depending on preference mainly.
+##### Links:
+- [**Install -**](http://telegra.ph/Install-a-bootanimation-05-07) How to install a boot animation
+- [**Extract -**](http://telegra.ph/Extract-a-bootanimation-05-07) How to extract a boot animation
+- [**Index -**](http://telegra.ph/Bootanimation-Index-05-08) Index of all the boot animations on the channel, sorted alphabetically
+- [**Gallery -**](https://t.me/bootanmtsgallery) Telegram channel with pictures for every boot animation
+- [**App -**](https://play.google.com/store/apps/details?id=com.jrummy.apps.boot.animations) App I generally use to install, has previews and backups too. Not affiliated to me in any way.
 
-```markdown
-Syntax highlighted code block
+##### Want to make one yourself?
+[These are the **guidelines**](https://android.googlesource.com/platform/frameworks/base.git/+/master/cmds/bootanimation/FORMAT.md), kindly provided by google/android. One thing I'll add is not to compress when zipping the boot animation as it won't boot (even tho it will work in the app's preview).
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rastamanjohn/bootanimations/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+##### Want to contribute?
+Send [me](https://t.me/rastamanjohn) any boot animation that is not on the channel and you want to share.
