@@ -10,9 +10,9 @@ The boot animation is stored in a zip named `bootanimation.zip` in `/system/medi
 The app way is reccomended, as it's the most painless way.
 The zip files in the [**channel**](https://t.me/bootanmtsgallery) are just the bootanimation.zip, so either you can use the app, or you can do it manually. If so you need to rename the file approprietaly, if you use the app it will do it for you. 
 
-These zip files **are not** flashable with magisk/recovery.
+These zip files **are not** flashable with magisk/recovery. I might make further on a guide how to make it flashable, tho I'm sure there is one already on XDA.
 
-Another thing the app will do is stretch the boot animation to your resolution (unless disabled this 'feature' in its settings), this can be good or bad, depending on preference mainly.
+Another thing the app will do is stretch the boot animation to your resolution (unless disabled this 'feature' in its settings), this can be good or bad, depending on your preference.
 ### Links:
 - [Install:](http://telegra.ph/Install-a-bootanimation-05-07) How to install a boot animation
 - [Extract:](http://telegra.ph/Extract-a-bootanimation-05-07) How to extract a boot animation
